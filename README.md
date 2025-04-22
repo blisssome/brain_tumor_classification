@@ -65,7 +65,7 @@ Even in incorrect predictions, the attention maps show where the model focusedâ€
 1. Clone the repository:
    ```bash
    git clone https://github.com/blisssome/brain-tumor-classification.git
-   cd brain-tumor-vit
+   cd brain-tumor-classification
    ```
 
 2. Open the notebook:
