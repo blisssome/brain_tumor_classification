@@ -40,7 +40,7 @@ Even in incorrect predictions, the attention maps show where the model focusedâ€
 ---
 
 ### ðŸ“Š Confusion Matrix
-![Confusion Matrix](./best_confusion_matrix.png)
+![Confusion Matrix](./confusion_matrix.png)
 
 - **True Positives (TP)**: 30
 - **True Negatives (TN)**: 18
