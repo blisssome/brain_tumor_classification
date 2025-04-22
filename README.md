@@ -88,7 +88,7 @@ Even in incorrect predictions, the attention maps show where the model focusedâ€
 
 ## ðŸ’¡ Future Work
 
-- Multi-class classification (e.g., glioma, meningioma, pituitary)
+- Multi-class classification (e.g., glioma, meningioma, pituitary) on a bigger datasset
 - Model compression for edge deployment
 
 ---
