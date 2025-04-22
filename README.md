@@ -84,6 +84,8 @@ Even in incorrect predictions, the attention maps show where the model focusedâ€
    pip install -r requirements.txt
    ```
 
+4. Add kaggle.json if you want to use Kaggle's API to fetch the data:
+   
 ---
 
 ## ðŸ’¡ Future Work
