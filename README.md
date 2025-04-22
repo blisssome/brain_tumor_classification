@@ -1,34 +1,19 @@
 
 # 🧠 Brain Tumor Classification with Vision Transformers
 
-This repository contains an implementation of a Vision Transformer (ViT) model for classifying brain MRI scans into two categories: **tumor** and **no tumor**. The model achieves an **F1-score of 0.94**, with interpretability powered by **Attention Rollout**, allowing visual insights into the decision-making process.
+This repository contains an implementation of a Vision Transformer (ViT) model for classifying brain MRI scans into two categories: **tumor** and **no tumor**. The model achieves an **F1-score of 0.94**, with interpretability powered by **Attention Rollout**.
 
 ## 🚀 Highlights
 
 - 📊 **High Accuracy**: Achieved 0.94 F1-score on the test set.
 - 🔍 **Explainability**: Integrated attention rollout visualizations for interpretability.
-- 🧠 **Medical Imaging**: Applies state-of-the-art transformer architecture to brain MRI classification.
-- 🔬 **Error Analysis**: Includes attention maps for misclassified samples.
-- 📈 **Performance Visualization**: Includes a detailed confusion matrix.
-
----
-
-## 📁 Project Structure
-
-```bash
-.
-├── brain_tumor.ipynb              # Main notebook for training, evaluation, and visualization
-├── attention_rollout.png          # Example of attention visualization for correct prediction
-├── attention_rollout_lacking_semantics.png  # Misclassified cases with attention maps
-├── best_confusion_matrix.png      # Confusion matrix showing final performance
-└── README.md
-```
-
+- 🧠 **Medical Imaging**: Used transformer architecture for brain MRI classification.
+  
 ---
 
 ## 🧠 Model Overview
 
-We use a **Vision Transformer (ViT)** architecture trained on T2-weighted axial MRI scans. The model has been fine-tuned to handle small-scale medical data using transfer learning and regularization techniques.
+The model `vit_base_patch16_224` has been fine-tuned to handle small-scale medical data using transfer learning and regularization techniques.
 
 ### 📌 Task
 
@@ -79,7 +64,7 @@ Even in incorrect predictions, the attention maps show where the model focused�
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/brain-tumor-vit.git
+   git clone https://github.com/blisssome/brain-tumor-vit.git
    cd brain-tumor-vit
    ```
 
@@ -95,17 +80,9 @@ Even in incorrect predictions, the attention maps show where the model focused�
 
 ---
 
-## 📚 References
-
-- Dosovitskiy et al., "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
-- Chefer et al., "Transformer Interpretability Beyond Attention Visualization"
-
----
-
 ## 💡 Future Work
 
 - Multi-class classification (e.g., glioma, meningioma, pituitary)
-- Integration with clinical metadata
 - Model compression for edge deployment
 
 ---
@@ -113,5 +90,5 @@ Even in incorrect predictions, the attention maps show where the model focused�
 ## 🧑‍🔬 Author
 
 **Emil Aliyev**  
-Graduate student in AI & Data Science  
-Special interests: cognitive science, interpretability, and neurosymbolic AI.
+Graduate student in AI & Data Science (MSc)  
+Special interests: cognitive science, EEG signals, BCI, interpretability, neurosymbolic AI, reinforcement learning, game development
