@@ -1,0 +1,13 @@
+tqdm
+scikit-image
+scipy
+Pillow
+opencv-python
+imutils
+matplotlib
+seaborn
+numpy
+scikit-learn
+torch
+torchvision
+timm
