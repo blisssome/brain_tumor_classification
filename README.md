@@ -11,6 +11,12 @@ This repository contains an implementation of a Vision Transformer (ViT) model f
   
 ---
 
+# 💾 Data Source
+
+Kaggle: Brain MRI Images for Brain Tumor Detection ![https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection]
+
+---
+
 ## 🧠 Model Overview
 
 The model `vit_base_patch16_224` has been fine-tuned to handle small-scale medical data using transfer learning and regularization techniques.
