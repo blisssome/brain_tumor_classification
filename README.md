@@ -34,7 +34,7 @@ The model `vit_base_patch16_224` has been fine-tuned to handle small-scale medic
 ### ✅ Correct Prediction with Attention
 ![Attention Rollout](./attention_rollout.png)
 
-The attention map highlights regions critical to the model's prediction. Notice how the tumor region is sharply attended to.
+The attention map highlights regions critical to the model's prediction. Notice how the tumor region is sharply attended.
 
 ---
 
