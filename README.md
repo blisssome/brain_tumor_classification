@@ -1,7 +1,7 @@
 
 # 🧠 Brain Tumor Classification with Vision Transformers
 
-This repository contains an implementation of a Vision Transformer (ViT) model for classifying brain MRI scans into two categories: **tumor** and **no tumor**. The model achieves an **F1-score of 0.94**, with interpretability powered by **Attention Rollout**.
+This repository contains an implementation of a Vision Transformer (ViT) model for classifying presence of a tumor in brain MRI scans. The model achieves an **F1-score of 0.94**, with interpretability powered by **Attention Rollout**.
 
 ## 🚀 Highlights
 
